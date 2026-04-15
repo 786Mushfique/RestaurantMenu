@@ -62,7 +62,7 @@ function TakeOrder() {
 }
 
 //3. Order Preparation
-function orderPrep(order) {
+function orderPrep() {
   return new Promise((resolve) => {
     // setTimeout(() => {
     //   console.log("Order is being prepared...");
@@ -78,7 +78,7 @@ function orderPrep(order) {
 }
 
 // 4. Pay Order
-function payOrder(order) {
+function payOrder() {
   return new Promise((resolve) => {
     setTimeout(() => {
         console.log('Payment Status:');
